@@ -37,7 +37,7 @@ const LandingAbout = () => {
 };
 
 export default LandingAbout;
-=======
+
 import Navbar from "./Navbar";
 import LandingAbout from "./LandingAbout";
 import Services from "./Services";
