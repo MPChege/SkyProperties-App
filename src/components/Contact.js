@@ -1,27 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import { FaEnvelope, FaPhone, FaMapMarker } from "react-icons/fa";
-import { FaIconName } from 'react-icons/fa';
 
 const Div = styled.div`
   background: #315e6b;
   padding: 1.5rem;
   gap: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Added align-items: center */
 
   .name {
     color: #fff;
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin-right: auto; /* Added margin-right: auto */
   }
 
   .footer {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 50rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
     img {
       width: 40px;
       height: 40px;
@@ -37,7 +35,7 @@ const Div = styled.div`
     font-size: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 3.5rem;
+    gap: 2rem;
     span {
       display: flex;
       align-items: center;
@@ -48,21 +46,46 @@ const Div = styled.div`
   .creator {
     color: #fff;
     font-size: 1.2rem;
-    margin-left: auto; /* Added margin-left: auto to push the content to the right */
+    margin-left: auto;
     a {
       text-decoration: none;
       color: #1460e5;
     }
   }
-  @media screen and (min-width: 280px) and (max-width: 768px) {
-    /* Media queries styling here */
+
+  @media screen and (max-width: 768px) {
+    /* Responsive styles for screens with a maximum width of 768px */
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .name {
+      font-size: 1rem; /* Decrease the font size for smaller screens */
+    }
+
+    .footer,
+    .contact-info,
+    .creator {
+      font-size: 1rem; /* Decrease the font size for smaller screens */
+    }
   }
 `;
+
 
 const Contact = () => {
   return (
     <Div>
-      <div className="name">Sky Properties</div>
+      <div className="name">
+        © {new Date().getFullYear()} Skyproperties. All Rights Reserved
+      </div>
+
       <div className="footer">
         <div className="contact-info">
           <span>
@@ -76,7 +99,7 @@ const Contact = () => {
           </span>
         </div>
         <div className="creator">
-          Created by <a href="https://github.com/lewis-ma">G3Rails</a>
+          Websites by <a href="https://github.com/lewis-ma">G3Rails</a>
         </div>
       </div>
     </Div>
