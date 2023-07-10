@@ -165,11 +165,13 @@ const LandingHome = () => {
         <ContentWrapper>
           <Subtitle>
             <h4>
-              Explore thousands of listings, connect with sellers, and make
-              informed decisions.
+            Explore thousands of listings, connect with sellers and make
+            informed decisions.
             </h4>
           </Subtitle>
-          <Quote>"Find your dream home now!."</Quote>
+          <Quote>
+            "Find your dream home now!."
+          </Quote>
         </ContentWrapper>
         <CardContainer>
           <CardTitle>FREE HOME VALUATION</CardTitle>
