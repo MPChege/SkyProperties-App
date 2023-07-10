@@ -13,15 +13,14 @@ const Title = styled.h2`
 const CardContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 100px;
-  // margin-top: 100px;
-  // margin-bottom: 100px;
+  gap: 40px;
+  margin-top: 40px;
 `;
 
 const Card = styled.div`
   background-color: #fff;
-  border-radius: 50px;
-  padding: 50px;
+  border-radius: 10px;
+  padding: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   width: calc(33.3333% - 20px);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -50,6 +49,15 @@ const CardDescription = styled.p`
   font-size: 14px;
 `;
 
+const Button = styled.button`
+  background-color: #202a44;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+`;
+
 const Services = () => {
   return (
     <ServicesContainer>
@@ -65,6 +73,7 @@ const Services = () => {
             Find your place with an immersive photo experience and the most
             listings, including things you won’t find anywhere else.
           </CardDescription>
+          <Button>FIND OUT MORE </Button>
         </Card>
         <Card>
           <CardImage
@@ -76,6 +85,7 @@ const Services = () => {
             No matter what path you take to sell your home, we can help you
             navigate a successful sale.
           </CardDescription>
+          <Button>FIND OUT MORE </Button>
         </Card>
         <Card>
           <CardImage
@@ -87,6 +97,7 @@ const Services = () => {
             We’re creating a seamless online experience – from shopping on the
             largest rental network, to applying, to paying rent.
           </CardDescription>
+          <Button>FIND OUT MORE </Button>
         </Card>
       </CardContainer>
     </ServicesContainer>
