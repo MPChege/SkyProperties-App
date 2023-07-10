@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+## Sky Properties
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Sky Properties! This is an MVP (Minimum Viable Product) for a platform that connects buyers and sellers in the real estate market. With Sky Properties, users can create profiles, search for properties, view listings, contact sellers, and manage their own property listings.
 
-## Available Scripts
+## Group Members
 
-In the project directory, you can run:
+Mark Paul: Scrum Master
+Valentine Kerubo
+Geofrey Tegeret
+Lewis Mawira
+Fred Njalale
+Sam Maina
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Here are the key features of our MVP:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+User Profiles: Users can create profiles as sellers or buyers, establishing their identity within the platform.
 
-### `npm test`
+Listing Viewing: Logged-in buyers have access to a comprehensive list of available properties for sale.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Property Search: Buyers can search for properties based on their specific criteria, such as price range, location, and property type.
 
-### `npm run build`
+Sorting Options: Buyers can sort the property listings based on their preferences, making it easier to find properties that meet their needs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Seller Information: Buyers can view seller information for each property, gaining insights about the sellers.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Direct Contact: Buyers can contact sellers directly from the platform, facilitating communication between buyers and sellers.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+User Data Editing: Users, whether buyers or sellers, can easily edit their user data and update their profiles.
 
-### `npm run eject`
+Property Listing Management: Sellers have the ability to view and update their property listings, ensuring accuracy and relevance.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with Sky Properties, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the repository to your local machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install the necessary dependencies by running npm install.
 
-## Learn More
+Set up a local development server by running npm start.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Access the application through your web browser at http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The backend browser at https://github.com/Vkerubo/SkyProperties-API
 
-### Code Splitting
+## Now, to run the Sky Properties project, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the project repository to your local machine.
 
-### Analyzing the Bundle Size
+Open your command line or terminal and navigate to the project directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install project dependencies by running the following command:
 
-### Making a Progressive Web App
+bundle install
+This command will install all the required gems and libraries specified in the project's Gemfile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Set up the database by running the following commands:
 
-### Advanced Configuration
+Start the Rails server by running the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+rails server
+This command will start the server, and you should see output indicating that the server is running.
 
-### Deployment
+Open your web browser and access the application at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You should now be able to access and use the Sky Properties project on your local machine. Note that additional configuration steps or environment variables might be required, depending on the specific project setup. Please refer to the project's documentation or consult the project team for any additional instructions or troubleshooting.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions from everyone! If you'd like to contribute to Sky Properties, please follow these guidelines:
+
+Fork the repository and create your branch from main.
+
+Make your changes, whether it's adding new features, fixing bugs, or improving the documentation.
+
+Ensure that your code follows the project's coding standards.
+
+Submit a pull request, describing your changes in detail and explaining the motivation behind them.
+
+Our team will review your pull request and provide feedback as soon as possible.
+
+## Feedback and Support
+
+If you have any questions, suggestions, or encounter any issues while using Sky Properties, please don't hesitate to reach out to us. You can contact us by email markpaulchege7@gmail.com
