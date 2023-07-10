@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import BuyersHomePage from "./BuyersHomePage";
-import { BuyersNavBar } from "./BuyersNavBar";
+import { BuyersNavBar } from "./BuyerNavBar";
 import { Favorites } from "./Favorites";
 import { Profile } from "./Profile";
 export const Buyer = ({ user, setUser }) => {
