@@ -6,7 +6,7 @@ import {
   useParams,
   useHistory,
 } from "react-router-dom";
-import { SellersNavBar } from "./Sellers.NavBar";
+import { SellersNavBar } from "./SellersNavBar";
 import { AddProperty } from "./AddProperty";
 import { Profile } from "./Profile";
 import { SellersHomePage } from "./SellersHomePage";
