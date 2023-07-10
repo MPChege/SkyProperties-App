@@ -5,14 +5,12 @@ import {
   Route,
 } from "react-router-dom";
 import BuyersHomePage from "./BuyersHomePage";
-import { BuyersNavBar } from "./BuyerNavBar";
+import { BuyersNavBar } from "./BuyersNavBar";
 import { Favorites } from "./Favorites";
 import { Profile } from "./Profile";
-
 export const Buyer = ({ user, setUser }) => {
   const [favorites, setFavorites] = useState([]);
   const [property, setProperty] = useState([])
-
   useEffect(() => {
     fetch("/properties")
     .then((resp) => resp.json())
@@ -20,7 +18,6 @@ export const Buyer = ({ user, setUser }) => {
         setProperty(data)
     });
   }, []);
-
   useEffect(() => {
     fetch("/favorites")
       .then((resp) => resp.json())
@@ -28,7 +25,6 @@ export const Buyer = ({ user, setUser }) => {
         setFavorites(data);
       });
   }, []);
-
   return (
     <Router>
       <div>
@@ -50,3 +46,17 @@ export const Buyer = ({ user, setUser }) => {
     </Router>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
