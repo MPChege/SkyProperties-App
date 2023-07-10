@@ -165,7 +165,7 @@ const LandingHome = () => {
         <ContentWrapper>
           <Subtitle>
             <h4>
-            Explore thousands of listings, connect with sellers, and make
+            Explore thousands of listings, connect with sellers and make
             informed decisions.
             </h4>
           </Subtitle>
