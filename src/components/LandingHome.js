@@ -203,7 +203,7 @@ const LandingHome = () => {
       </SlidingPhotos>
       <Services />
       <LandingAbout />
-      <Contact/>
+      <Contact />
     </div>
   );
 };
